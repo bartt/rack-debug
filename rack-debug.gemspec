@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rack-debug}
-  s.version = "1.4.1"
+  s.version = "1.4.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["David Dollar", "Bart Teeuwisse"]
@@ -24,7 +24,6 @@ http://github.com/github/rack-debug
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/rack-debug.rb",
      "lib/rack-debug/debugger.rb",
      "lib/rack-debug/tasks.rb",
      "lib/rack/debug.rb",

@@ -5,7 +5,7 @@ Install
 Rails
 
  # config/environments/development.rb
- config.gem 'rack-debug'
+ config.gem 'rack-debug', :lib => false
  config.middleware.use 'Rack::Debug'
 
  # RAILS_ROOT/Rakefile
